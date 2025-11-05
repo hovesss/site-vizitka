@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+html,body {
+    height: 100%;
+}
+
+header, main, footer {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+}
+
+#logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 30px;
+    float: left;
+    margin-right: 90px;
+}
+
+header {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    height: 120px;
+}
+
+main {
+    font-family: "Chiron Sung HK", serif;
+    padding-bottom: 100px;
+}
+
+footer {
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+    text-align: center;
+}
+
+body{
+    background-color: #025cb1;
+    color: white;
+}
+
+.main_img-float {
+    max-width: 550px;
+    max-height: 400px;
+    margin-right: 40px;
+    float: left;
+}
+
+#panorama {
+    width: 100%;
+    height: 150px;
+    background: url(../img/2.jpg) no-repeat center 70%;
+    background-size: cover;
+}
+
+.services_img {
+    width: 240px;
+    max-height: 300px;
+}
+
+.services_item {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 240px;
+    float: left;
+}
+
+.services p {
+    font-size: 14px;
+}
+
+.services {
+    padding: 35px;
+}
+
+.new::after {
+    content: "new";
+    font-size: 10px;
+    vertical-align: super;
+    background-color: #093c6b;
+    border-radius: 2px;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.services a {
+    color:#00eeff;
+    text-decoration: none;
+}
+
+.services a:hover {
+    text-decoration: underline;
+}
+
+#services {
+    font-size: 16px;
+}
+
+.h1--invisible {
+    visibility: hidden;
+}
+
+.team {
+    max-width: 600px;
+    padding: 35px;
+}
+
+.team_text {
+    float: left;
+}
+
+.team_h1 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.team_img {
+    max-width: 600px;
+    max-height: 450px;
+}
+
+.contacts {
+    max-width: 300px;
+}
+
+.contacts_info {
+    color: #00eeff;
+    margin-bottom: 10px;
+}
+
+.contacts_main_info {
+    text-align: center;
+}
+
+.contacts_upper {
+    text-transform: uppercase;
+}
+
+.contacts_connect {
+    text-decoration: underline;
+}
+
+.clients {
+    max-width: 700px;
+    padding: 35px;
+}
+
+.clients h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px
+}
+
+.feedback {
+    border: #00eeff solid 3px ;
+    border-radius: 15px;
+    padding: 0px;
+    max-width: 600px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+.feedback img {
+    max-width: 150px;
+    margin-right: 10px;
+    margin-bottom: 55px;
+    margin-top: 60px;
+    margin-left: 10px;
+    float: left;
+}
+
+.feedback-name {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.feedback p {
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.cyan {
+    color: #00eeff;
+}
+
+.footer_block , .footer_icons {
+    display: inline-block;
+    width: 335px;
+}
+
+.footer_icons {
+    margin-left: 10px;
+    text-align: right;
+}
+
+.footer_img {
+    width: 50px;
+}
+
+.footer_block {
+    text-transform: lowercase;
+    text-align: center;
+}
+
+h2 , h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+   
+}
+
+.mark {
+    box-shadow: #025cb1 ;
+}
+
+img {
+    border:#025cb1 1px solid;
+    border-radius: 10px;
+    box-shadow: black;
+}
+
+hgroup {
+    font-family: "Rubik", sans-serif;
+}
+
+#mainnav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 37px;
+}
+
+#mainnav li {
+    display: inline;
+    margin-left: 60px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+#mainnav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#mainnav a:hover {
+    text-decoration: underline;
+}
+
+#mainnav li.active a {
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    border: 5px solid #00eeff;
+}
+
+td, th {
+    border: 2px solid white;
+}
+
+.price th:first-chid{
+    width: 15%;
+}
+
+.price th:nth-child(2), .price th:last-child{
+    width: 25%;
+}
